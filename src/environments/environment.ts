@@ -3,9 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyB5LVhTszoQ4COKgQ061469pGuwUfD8SaI",
+    authDomain: "kanban-fire-cbd00.firebaseapp.com",
+    projectId: "kanban-fire-cbd00",
+    storageBucket: "kanban-fire-cbd00.appspot.com",
+    messagingSenderId: "1052677941732",
+    appId: "1:1052677941732:web:4120c0cfa4e0ccabc2fff1",
+    measurementId: "G-XPFZ9HSBZE"
+  }
 };
-
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
